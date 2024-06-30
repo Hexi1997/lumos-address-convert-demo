@@ -11,7 +11,7 @@ export function App() {
           setType("metamask");
         }}
       >
-        metamask
+        metamask(如果无法connect，请禁用okx插件)
       </button>
       <button
         onClick={() => {

@@ -3,8 +3,8 @@ import { useEffect, useState } from "react";
 import { helpers, Script, config, commons } from "@ckb-lumos/lumos";
 import { asyncSleep, capacityOf, unisat } from "./lib";
 
-// use testnet config
-config.initializeConfig(config.predefined.AGGRON4);
+// use mainnet config
+config.initializeConfig(config.predefined.LINA);
 
 export function UnisatDemo() {
   const [bitcoinAddr, setBitcoinAddr] = useState("");
